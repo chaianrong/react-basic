@@ -1,0 +1,27 @@
+.report-container{
+display: flex;
+justify-content: space-between;
+background-color: white;
+padding: 20px;
+margin: 5px 0;
+}
+
+.report-container>div{
+    flex: 1;
+    text-align: center;
+}
+.report-container>div:first-of-type{
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+.report{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+.plus{
+    color: #0fb900;
+}
+.minus{
+    color: rgb(255, 52, 52);
+}

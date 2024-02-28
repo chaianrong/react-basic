@@ -1,0 +1,19 @@
+
+.item-list{
+    padding:0 ;
+    margin-bottom: 40px;
+
+}
+
+.item-list li{
+    background-color: white;
+    list-style-type: none;
+    color: rgb(75, 75, 75);
+    text-align:center;
+    box-shadow: 0 1px 3px rgb(221, 221, 221);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
